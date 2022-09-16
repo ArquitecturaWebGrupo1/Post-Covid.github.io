@@ -104,7 +104,7 @@ section:nth-child(even){
 }
 
 .header .navbar a{
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     color: var(--light-color);
     margin-left: 2rem;
 }
@@ -164,7 +164,7 @@ section:nth-child(even){
     padding: 1rem 0;
 }
 
-.icons-container{
+.icons-consult{
     display: grid;
     gap:2rem;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
@@ -172,7 +172,7 @@ section:nth-child(even){
     padding-bottom: 5rem;
 }
 
-.icons-container .icons{
+.icons-consult .icons{
     border:var(--border);
     box-shadow: var(--box-shadow);
     border-radius: .5rem;
@@ -180,31 +180,31 @@ section:nth-child(even){
     padding: 2.5rem;
 }
 
-.icons-container .icons i{
+.icons-consult .icons i{
     font-size: 4.5rem;
     color:var(--green);
     padding-bottom: .7rem;
 }
 
-.icons-container .icons h3{
+.icons-consult .icons h3{
     font-size: 4.5rem;
     color:var(--black);
     padding: .5rem 0;
     text-shadow: var(--text-shadow);
 }
 
-.icons-container .icons p{
+.icons-consult .icons p{
     font-size: 1.7rem;
     color:var(--light-color);
 }
 
-.services .box-container{
+.services .box-consult{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
     gap:2rem;
 }
 
-.services .box-container .box{
+.services .box-consult .box{
     background:#fff;
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
@@ -212,43 +212,43 @@ section:nth-child(even){
     padding: 2.5rem;
 }
 
-.services .box-container .box i{
+.services .box-consult .box i{
     color: var(--green);
     font-size: 5rem;
     padding-bottom: .5rem;
 }
 
-.services .box-container .box h3{
+.services .box-consult .box h3{
     color: var(--black);
     font-size: 2.5rem;
     padding:1rem 0;
 }
 
-.services .box-container .box p{
+.services .box-consult .box p{
     color: var(--light-color);
     font-size: 1.4rem;
     line-height: 2;
 }
-.container {
+.consult {
     width: 90%; 
     margin: 100px auto;
 }
-.container-faq{
+.consult-faq{
     box-shadow: 0 0 15px -1px rgba(0,0, 0,.1);
     padding: 30px;
 }
-.container-faq .title-faq {
+.consult-faq .title-faq {
     text-align: center;
     font-size: 4rem;
     margin-bottom: 30px;
 }
-.container-faq .item-faq{
+.consult-faq .item-faq{
     box-shadow: 0 0 15px -1 rgba(0, 0, 0, .2);
     margin-bottom: 20px;
     border-radius: 10px;
     font-size: 1.8rem;
 }
-.container-faq .item-faq .question{
+.consult-faq .item-faq .question{
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -257,7 +257,7 @@ section:nth-child(even){
     padding: 20px 20px 20px 80px;
     transition: .4s;
 }
-.container-faq .item-faq .question .more{
+.consult-faq .item-faq .question .more{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -268,27 +268,27 @@ section:nth-child(even){
     cursor: pointer;
     transition: -4s;
 }
-.container-faq .item-faq .question .more :hover {
+.consult-faq .item-faq .question .more :hover {
     box-shadow: 0 0 15px -1px rgba(0, 0, 0, .4);
 }
-.container-faq .item-faq .question span {
+.consult-faq .item-faq .question span {
     position: absolute;
     left: 10px;
     font-size: 3rem;
     top: 10px;
     opacity: .1;
 }
-.container-faq .item-faq .answer {
+.consult-faq .item-faq .answer {
     position: relative;
     padding: 0 40px 0 80px;
     overflow: hidden;
     height: 20;
     transition: .4s;
 }
-.container-faq .item-faq .answer p {
+.consult-faq .item-faq .answer p {
     font-size: 1.6rem;
 }
-.container-faq .item-faq .answer span {
+.consult-faq .item-faq .answer span {
     position: absolute;
     left: 10px;
     font-size: 3rem;
@@ -328,13 +328,13 @@ section:nth-child(even){
     line-height: 1.8;
 }
 
-.doctors .box-container{
+.doctors .box-consult{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:2rem;
 }
 
-.doctors .box-container .box{
+.doctors .box-consult .box{
     text-align: center;
     background:#fff;
     border-radius: .5rem;
@@ -343,7 +343,7 @@ section:nth-child(even){
     padding:2rem;
 }
 
-.doctors .box-container .box img{
+.doctors .box-consult .box img{
     height: 20rem;
     border:var(--border);
     border-radius: .5rem;
@@ -351,21 +351,21 @@ section:nth-child(even){
     margin-bottom: 1rem;
 }
 
-.doctors .box-container .box h3{
+.doctors .box-consult .box h3{
     color:var(--black);
     font-size: 2.5rem;
 }
 
-.doctors .box-container .box span{
+.doctors .box-consult .box span{
     color:var(--green);
     font-size: 1.5rem;
 }
 
-.doctors .box-container .box .share{
+.doctors .box-consult .box .share{
     padding-top: 2rem;
 }
 
-.doctors .box-container .box .share a{
+.doctors .box-consult .box .share a{
     height: 5rem;
     width: 5rem;
     line-height: 4.5rem;
@@ -376,7 +376,7 @@ section:nth-child(even){
     margin:.3rem;
 }
 
-.doctors .box-container .box .share a:hover{
+.doctors .box-consult .box .share a:hover{
     background:var(--green);
     color:#fff;
     box-shadow: var(--box-shadow);
@@ -428,13 +428,13 @@ section:nth-child(even){
     padding:1rem 4rem;
 }
 
-.review .box-container{
+.review .box-consult{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
     gap:2rem;
 }
 
-.review .box-container .box{
+.review .box-consult .box{
     border:var(--border);
     box-shadow: var(--box-shadow);
     border-radius: .5rem;
@@ -446,7 +446,7 @@ section:nth-child(even){
     z-index: 0;
 }
 
-.review .box-container .box img{
+.review .box-consult .box img{
     height: 10rem;
     width: 10rem;
     border-radius: 50%;
@@ -454,25 +454,25 @@ section:nth-child(even){
     border:.5rem solid #fff;
 }
 
-.review .box-container .box h3{
+.review .box-consult .box h3{
     color:#fff;
     font-size: 2.2rem;
     padding:.5rem 0;
 }
 
-.review .box-container .box .stars i{
+.review .box-consult .box .stars i{
     color:#fff;
     font-size: 1.5rem;
 }
 
-.review .box-container .box .text{
+.review .box-consult .box .text{
     color:var(--light-color);
     line-height: 1.8;
     font-size: 1.6rem;
     padding-top: 4rem;
 }
 
-.review .box-container .box::before{
+.review .box-consult .box::before{
     content: '';
     position: absolute;
     top:-4rem; left: 50%;
@@ -485,97 +485,97 @@ section:nth-child(even){
     z-index: -1;
 }
 
-.blogs .box-container{
+.plans .box-consult{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:2rem;
 }
 
-.blogs .box-container .box{
+.plans .box-consult .box{
     border:var(--border);
     box-shadow: var(--box-shadow);
     border-radius: .5rem;
     padding: 2rem;
 }
 
-.blogs .box-container .box .image{
+.plans .box-consult .box .image{
     height: 20rem;
     overflow:hidden;
     border-radius: .5rem;
 }
 
-.blogs .box-container .box .image img{
+.plans .box-consult .box .image img{
     height: 150%;
     width: 100%;
     object-fit: cover;
 }
 
-.blogs .box-container .box:hover .image img{
+.plans .box-consult .box:hover .image img{
     transform:scale(1.2);
 }
 
-.blogs .box-container .box .content{
+.plans .box-consult .box .content{
     padding-top: 1rem;
 }
 
-.blogs .box-container .box .content .icon{
+.plans .box-consult .box .content .icon{
     padding: 1rem 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.blogs .box-container .box .content .icon a{
+.plans .box-consult .box .content .icon a{
     font-size: 1.4rem;
     color: var(--light-color);
 }
 
-.blogs .box-container .box .content .icon a:hover{
+.plans .box-consult .box .content .icon a:hover{
     color:var(--green);
 }
 
-.blogs .box-container .box .content .icon a i{
+.plans .box-consult .box .content .icon a i{
     padding-right: .5rem;
     color: var(--green);
 }
 
-.blogs .box-container .box .content h3{
+.plans .box-consult .box .content h3{
     color:var(--black);
     font-size: 3rem;
 }
 
-.blogs .box-container .box .content p{
+.plans .box-consult .box .content p{
     color:var(--light-color);
     font-size: 1.5rem;
     line-height: 1.8;
     padding:1rem 0;
 }
 
-.footer .box-container{
+.footer .box-consult{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
     gap:2rem;
 }
 
-.footer .box-container .box h3{
+.footer .box-consult .box h3{
     font-size: 2.5rem;
     color:var(--black);
     padding: 1rem 0;
 }
 
-.footer .box-container .box a{
+.footer .box-consult .box a{
     display: block;
     font-size: 1.5rem;
     color:var(--light-color);
     padding: 1rem 0;
 }
 
-.footer .box-container .box a i{
+.footer .box-consult .box a i{
     padding-right: .5rem;
     color:var(--green);
 }
 
-.footer .box-container .box a:hover i{
+.footer .box-consult .box a:hover i{
     padding-right:2rem;
 }
 
